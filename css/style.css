@@ -1,0 +1,96 @@
+/*body{font-family: 'Quattrocento', serif !important}*/
+*{padding: 0px}
+
+.navbar{padding: 0px !important;margin: 0px !important;position: fixed;width: 100%;z-index: 10;display: flex}
+
+
+.navbar  ul{margin: auto}
+.navbar-brand{width: 80px;height: 60px;background-image:url(../Img/logo.png);background-size: 70%;background-repeat: no-repeat;background-position: center;display: inline-block}
+
+.navbar > span{color:#ECD970;font-size: 200%}
+.navbar > span > span{color: #D14282;font-weight: bold}
+
+.nav-item {padding: 10px !important ;font-size: 150% !important;}
+
+.nav-item:hover {background-color: #ECD970;color: white !important;}
+
+.nav-item a {color: #D14282 !important;}
+.nav-item:hover a {color: white !important;}
+
+
+.navbar form{margin: 10px}
+
+.btn:hover{color: white}
+
+
+
+
+.carousel-item{height: 500px;background-size: 100% 100%;background-repeat: no-repeat;background-position: center;position: relative !important;margin-top: 60px}
+
+.carousel-item P{max-width: 50%;margin: auto;margin-top: 300px;color: #ECD970;font-size: 150%;font-weight: bold;background-color: rgb(0, 0, 0, 0.5);border-radius: 10px;padding: 30px;} 
+
+
+.presentation {height: 500px;width: 100%;background-image:url(../Img/parallax.jpg);background-size: 100% 100%;background-repeat: no-repeat;background-position: center;padding: 0px !important}
+
+.presentation > div{height: 500px;width: 100%;background-color: rgb(0,0,0, 0.7);color: white;padding: 40px;font-size: 150%;}
+
+
+
+.maps{width: 100%;height: 500px;padding: 0px !important}
+
+
+
+.footer{width: 100%;height: 100px;text-align: center;font-size: 200%;background-color: #610B5E;color: white;padding: 20px}
+
+
+
+
+
+.services,.devis{padding-top: 100px;}
+
+.card-title a {color: darkviolet }
+
+
+
+
+
+
+
+
+fieldset{background:#FFF;border:1px solid #D14282;padding:20px;margin:20px auto;width: 400px}
+
+fieldset legend{background:#FFF;border:1px solid #D14282;padding:10px;color:#D14282;font-size: 170%;font-weight: bold;margin: auto;text-align: center}
+
+
+
+fieldset form >div > div input,fieldset form >div > div textarea {padding:5px; width:100%;border: 1px solid grey ;color: #424242;font-size: 110%;font-weight: bold;margin-bottom:10px;}
+
+fieldset form >div > div textarea{resize: none;margin-bottom:10px;height:100px;}
+
+fieldset form >div > div input::placeholder,fieldset form >div > div textarea::placeholder{color:#A4A4A4;font-size: 90%}
+
+fieldset form >div > div select{padding:5px;width: 100%;font-size: 110%;font-weight: bold;color: #424242;margin-bottom:10px;}
+
+fieldset form >div > div label{padding: 0px;margin-bottom:5px;width: 100px;color:#D14282;font-size: 130%}
+
+fieldset form >div  label{padding:5px;font-size: 105%;font-weight: bold;color: #D14282;margin-top:10px;cursor: pointer}
+
+fieldset form >div  label:nth-child(2){padding-right: 30px}
+
+.radioDiv{text-align: center}
+
+.btnDiv{text-align: right}
+
+
+fieldset form >div > input{border: none;color: white;padding: 5px;padding-left: 15px;padding-right: 15px;background-color: #D14282;font-size: 120%;font-weight: bold;border-radius: 5px;margin-top: 10px;cursor: pointer}
+
+
+.devisInfo{width: 100%}
+
+
+.contact{padding-top: 150px;padding-bottom: 200px}
+
+.contact .btn{color: white !important}
+
+
+.Invalid{border-color: red !important}
